@@ -7,13 +7,13 @@ const Index = props => (
   <Layout>
     <h1>React Scroll Parallax - Adaptive Image</h1>
     <Parallax className="custom-class" y={[-20, 20]}>
-      <AdaptiveImage src="/static/img-1.jpg" />
+      <AdaptiveImage fileName="sample.jpg" />
     </Parallax>
     <Parallax className="custom-class" y={[-20, 20]}>
-      <AdaptiveImage src="/static/img-2.jpg" />
+      <AdaptiveImage fileName="sample.jpg" />
     </Parallax>
     <Parallax className="custom-class" y={[-20, 20]}>
-      <AdaptiveImage src="/static/img-3.jpg" />
+      <AdaptiveImage fileName="sample.jpg" />
     </Parallax>
     <style global jsx>
       {`
